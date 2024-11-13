@@ -1,0 +1,82 @@
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  h1 {
+    display: flex;
+    flex-direction: column;
+    color: lightskyblue;
+    background-color: lightcoral;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border: solid 7px lightskyblue;
+    border-radius: 20px;
+    padding-top: 8px;
+    margin-left: 45%;
+    animation: bounce 2s infinite;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    margin-top: 60px; margin-left: 50px;
+    color: rgb(139, 139, 230);
+    background-color: rgb(233, 207, 175);
+    width: 110px;
+    padding: 5px;
+    border-radius: 10px 0;
+    border: solid;
+  }
+  
+  #Social {
+  width: 140px;
+  }
+  
+  .thebutton {
+    background-color: cornflowerblue;
+    margin: .50px;
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 60px;
+  }
+  
+  /* The  border-radius allows me to round the corners */
+  p {
+    margin-left: 60px;
+    border: solid 3px cornflowerblue;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  #insta {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  img {
+    height: 400px;
+    border-radius: 10px;
+    border: solid 5px lightcoral;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  body {
+    background: linear-gradient(to right, rgb(249, 249, 94), palegreen);
+  }
