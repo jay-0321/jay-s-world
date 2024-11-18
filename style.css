@@ -57,6 +57,15 @@
     border-radius: 10px;
     padding: 10px;
   }
+
+  p.Tangerines {
+    background-image: url(https://cdn.shopify.com/s/files/1/2045/8185/files/iStock-1217298973.jpg?v=1660572186);
+    color: rgb(254, 255, 251);
+    font-size: 20px;
+    max-width: 700px;
+    text-align:center;
+    padding-top: 25px ;
+  } 
   
   #insta {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
